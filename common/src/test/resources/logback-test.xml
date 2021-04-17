@@ -1,0 +1,13 @@
+<configuration>
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <pattern>%highlight(%-5level) %d{HH:mm:ss.SSS} %yellow([%thread]) %logger{36}\(%class{0}.java:%line\) %green(%msg) %n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="com.btw" level="debug" />
+
+    <root level="warn">
+        <appender-ref ref="STDOUT"/>
+    </root>
+</configuration>

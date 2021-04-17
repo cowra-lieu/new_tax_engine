@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns="http://www.ehcache.org/v3"
+        xmlns:jsr107="http://www.ehcache.org/v3/jsr107"
+        xsi:schemaLocation="
+            http://www.ehcache.org/v3 http://www.ehcache.org/schema/ehcache-core-3.8.xsd
+            http://www.ehcache.org/v3/jsr107 http://www.ehcache.org/schema/ehcache-107-ext-3.8.xsd">
+
+    <service>
+        <jsr107:defaults enable-management="false" enable-statistics="true" />
+    </service>
+
+    <cache-template name="default">
+        <expiry>
+<!--            <ttl unit="days">1</ttl>-->
+            <none/>
+        </expiry>
+        <resources>
+            <heap>1000</heap>
+            <offheap unit="MB">1</offheap>
+        </resources>
+    </cache-template>
+
+
+    <cache alias="apcCache" uses-template="default">
+        <key-type>java.lang.String</key-type>
+        <value-type>java.lang.String</value-type>
+        <resources>
+            <heap>12000</heap>
+        </resources>
+    </cache>
+
+    <cache alias="PJLCache" uses-template="default">
+        <key-type>java.lang.String</key-type>
+        <value-type>java.lang.Boolean</value-type>
+        <resources>
+            <heap>1020000</heap>
+            <offheap unit="MB">35</offheap>
+        </resources>
+    </cache>
+
+    <cache alias="PSLCache" uses-template="default">
+        <key-type>java.lang.String</key-type>
+        <value-type>java.lang.Boolean</value-type>
+        <resources>
+            <heap>1450000</heap>
+            <offheap unit="MB">50</offheap>
+        </resources>
+    </cache>
+
+    <cache alias="PSVCache" uses-template="default">
+        <key-type>java.lang.String</key-type>
+        <value-type>java.lang.Boolean</value-type>
+        <resources>
+            <heap>200</heap>
+        </resources>
+    </cache>
+
+    <cache alias="tpt1Cache" uses-template="default">
+        <key-type>java.lang.String</key-type>
+        <value-type>java.lang.Boolean</value-type>
+        <resources>
+            <heap>82000</heap>
+            <offheap unit="MB">2</offheap>
+        </resources>
+    </cache>
+    <cache alias="tpt2Cache" uses-template="default">
+        <key-type>java.lang.String</key-type>
+        <value-type>java.lang.Boolean</value-type>
+        <resources>
+            <heap>240000</heap>
+            <offheap unit="MB">40</offheap><!-- about 233w in redis -->
+        </resources>
+    </cache>
+    <cache alias="tpt3Cache" uses-template="default">
+        <key-type>java.lang.String</key-type>
+        <value-type>java.lang.Boolean</value-type>
+        <resources>
+            <heap>110000</heap>
+            <offheap unit="MB">20</offheap><!-- aoubt 105w in redis -->
+        </resources>
+    </cache>
+    <cache alias="tpj1Cache" uses-template="default">
+        <key-type>java.lang.String</key-type>
+        <value-type>java.lang.Boolean</value-type>
+        <resources>
+            <heap>290000</heap>
+            <offheap unit="MB">5</offheap>
+        </resources>
+    </cache>
+    <cache alias="tpj2Cache" uses-template="default">
+        <key-type>java.lang.String</key-type>
+        <value-type>java.lang.Boolean</value-type>
+        <resources>
+            <heap>90000</heap>
+            <offheap unit="MB">14</offheap><!-- about 87.5W in redis -->
+        </resources>
+    </cache>
+    <cache alias="tpjvCache" uses-template="default">
+        <key-type>java.lang.String</key-type>
+        <value-type>java.lang.Boolean</value-type>
+        <resources>
+            <heap>140000</heap>
+            <offheap unit="MB">3</offheap>
+        </resources>
+    </cache>
+    <cache alias="tpjwCache" uses-template="default">
+        <key-type>java.lang.String</key-type>
+        <value-type>java.lang.Boolean</value-type>
+        <resources>
+            <heap>245000</heap>
+            <offheap unit="MB">4</offheap>
+        </resources>
+    </cache>
+
+    <cache alias="cabCache" uses-template="default">
+        <key-type>java.lang.String</key-type>
+        <value-type>java.lang.Character</value-type>
+        <resources>
+            <heap>2000</heap>
+        </resources>
+    </cache>
+    <cache alias="raCache" uses-template="default">
+        <key-type>java.lang.String</key-type>
+        <value-type>java.lang.String</value-type>
+        <resources>
+            <heap>100</heap>
+        </resources>
+    </cache>
+    <cache alias="icerCache" uses-template="default">
+        <key-type>java.lang.String</key-type>
+        <value-type>java.lang.Double</value-type>
+        <resources>
+            <heap>1000</heap>
+        </resources>
+    </cache>
+    <cache alias="icerFlagCache" uses-template="default">
+        <key-type>org.springframework.cache.interceptor.SimpleKey</key-type>
+        <value-type>[I</value-type>
+        <resources>
+            <heap>10</heap>
+        </resources>
+    </cache>
+
+    <cache alias="tpmCache" uses-template="default">
+        <key-type>java.lang.String</key-type>
+        <value-type>java.lang.Double</value-type>
+        <expiry>
+            <none/>
+        </expiry>
+        <resources>
+            <heap>80000</heap>
+            <offheap unit="MB">2</offheap>
+        </resources>
+    </cache>
+    <cache alias="mpmCache" uses-template="default">
+        <key-type>java.lang.String</key-type>
+        <value-type>java.lang.Double</value-type>
+        <expiry>
+            <none/>
+        </expiry>
+        <resources>
+            <heap>240000</heap>
+            <offheap unit="MB">80</offheap><!-- about 391W in redis -->
+        </resources>
+    </cache>
+
+    <cache alias="y198Cache" uses-template="default">
+        <key-type>java.lang.String</key-type>
+        <value-type>java.lang.Boolean</value-type>
+        <resources>
+            <heap>8500</heap>
+        </resources>
+    </cache>
+
+    <cache alias="checkLocationCache" uses-template="default">
+        <key-type>java.lang.String</key-type>
+        <value-type>java.lang.Boolean</value-type>
+        <resources>
+            <heap>2000000</heap>
+            <offheap unit="MB">64</offheap>
+        </resources>
+    </cache>
+
+    <cache alias="t190Cache" uses-template="default">
+        <key-type>java.lang.String</key-type>
+        <value-type>java.lang.String</value-type>
+        <resources>
+            <heap>4200</heap>
+        </resources>
+    </cache>
+    <cache alias="t167XCache" uses-template="default">
+        <key-type>java.lang.String</key-type>
+        <value-type>java.lang.String</value-type>
+        <resources>
+            <heap>50</heap>
+        </resources>
+    </cache>
+    <cache alias="t167YCache" uses-template="default">
+        <key-type>java.lang.String</key-type>
+        <value-type>java.lang.String</value-type>
+        <resources>
+            <heap>1800</heap>
+        </resources>
+    </cache>
+    <cache alias="t168Cache" uses-template="default">
+        <key-type>java.lang.String</key-type>
+        <value-type>java.lang.String</value-type>
+        <resources>
+            <heap>1600</heap>
+        </resources>
+    </cache>
+    <cache alias="t169Cache" uses-template="default">
+        <key-type>java.lang.String</key-type>
+        <value-type>java.lang.String</value-type>
+        <resources>
+            <heap>1000</heap>
+        </resources>
+    </cache>
+    <cache alias="t183Cache" uses-template="default">
+        <key-type>java.lang.String</key-type>
+        <value-type>java.lang.String</value-type>
+        <resources>
+            <heap>44000</heap>
+            <offheap unit="MB">15</offheap>
+        </resources>
+    </cache>
+    <cache alias="t186Cache" uses-template="default">
+        <key-type>java.lang.String</key-type>
+        <value-type>java.lang.String</value-type>
+        <resources>
+            <heap>17500</heap>
+        </resources>
+    </cache>
+
+
+    <cache alias="c2ssCache" uses-template="default">
+        <key-type>java.lang.String</key-type>
+        <value-type>java.lang.String</value-type>
+        <resources>
+            <heap>2600</heap>
+        </resources>
+    </cache>
+    <cache alias="c2nCache" uses-template="default">
+        <key-type>java.lang.String</key-type>
+        <value-type>java.lang.String</value-type>
+        <resources>
+            <heap>10500</heap>
+        </resources>
+    </cache>
+    <cache alias="n2aCache" uses-template="default">
+        <key-type>java.lang.String</key-type>
+        <value-type>java.lang.String</value-type>
+        <resources>
+            <heap>250</heap>
+        </resources>
+    </cache>
+    <cache alias="ss2aCache" uses-template="default">
+        <key-type>java.lang.String</key-type>
+        <value-type>java.lang.String</value-type>
+        <resources>
+            <heap>50</heap>
+        </resources>
+    </cache>
+    <cache alias="s2aCache" uses-template="default">
+        <key-type>java.lang.String</key-type>
+        <value-type>java.lang.String</value-type>
+        <resources>
+            <heap>100</heap>
+        </resources>
+    </cache>
+    <cache alias="z2aCache" uses-template="default">
+        <key-type>java.lang.String</key-type>
+        <value-type>java.lang.String</value-type>
+        <resources>
+            <heap>50</heap>
+        </resources>
+    </cache>
+
+    <cache alias="currCache" uses-template="default">
+        <key-type>java.lang.String</key-type>
+        <value-type>java.lang.String</value-type>
+        <resources>
+            <heap>200</heap>
+        </resources>
+    </cache>
+
+    <cache alias="itineraryCache" uses-template="default">
+        <key-type>java.lang.String</key-type>
+        <value-type>com.btw.tax_engine.common.bean.QueryResult</value-type>
+        <resources>
+            <heap>400000</heap>
+            <offheap unit="MB">80</offheap>
+        </resources>
+    </cache>
+    <cache alias="itinerarySectorCache" uses-template="default">
+        <key-type>java.lang.String</key-type>
+        <value-type>com.btw.tax_engine.common.bean.QueryResult</value-type>
+        <resources>
+            <heap>400000</heap>
+            <offheap unit="MB">80</offheap>
+        </resources>
+    </cache>
+
+    <cache alias="taxnameCache" uses-template="default">
+        <key-type>java.lang.String</key-type>
+        <value-type>java.lang.String</value-type>
+        <resources>
+            <heap>4000</heap>
+        </resources>
+    </cache>
+
+
+</config>

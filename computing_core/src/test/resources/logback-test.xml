@@ -1,0 +1,15 @@
+<configuration>
+    <!-- 默认的控制台日志输出，一般生产环境都是后台启动，这个没太大作用 -->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+<!--            <Pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} %msg%n</Pattern>-->
+            <pattern>%highlight(%-5level) %d{HH:mm:ss.SSS} %yellow([%thread]) %logger{36}\(%class{0}.java:%line\) %green(%msg) %n</pattern>
+        </encoder>
+    </appender>
+
+    <logger name="com.btw" level="info" />
+
+    <root level="warn">
+        <appender-ref ref="STDOUT"/>
+    </root>
+</configuration>

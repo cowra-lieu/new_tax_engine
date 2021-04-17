@@ -1,0 +1,96 @@
+---1
+[YqFeeItem[name='YQ', sectors='1-2', amount=1238.0, conn_exemption=false, fee_application=1], YqFeeItem[name='YQ', sectors='3-4', amount=1026.0, conn_exemption=false, fee_application=1]]
+[YqFeeItem[name='YR', sectors='1', amount=29.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='2', amount=29.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='3', amount=29.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='4', amount=29.0, conn_exemption=false, fee_application=0]]
+---2
+[YqFeeItem[name='YQ', sectors='1-2', amount=531.0, conn_exemption=false, fee_application=1], YqFeeItem[name='YQ', sectors='3-4', amount=531.0, conn_exemption=false, fee_application=1]]
+[YqFeeItem[name='YR', sectors='1', amount=29.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='2', amount=29.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='3', amount=29.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='4', amount=29.0, conn_exemption=false, fee_application=0]]
+---3
+[YqFeeItem[name='YQ', sectors='1', amount=700.0, conn_exemption=false, fee_application=0]]
+[YqFeeItem[name='YR', sectors='1', amount=29.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='2', amount=29.0, conn_exemption=false, fee_application=0]]
+---4
+[YqFeeItem[name='YQ', sectors='1', amount=1200.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YQ', sectors='2', amount=1200.0, conn_exemption=false, fee_application=0]]
+[YqFeeItem[name='YR', sectors='1', amount=29.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='2', amount=29.0, conn_exemption=false, fee_application=0]]
+---5
+[YqFeeItem[name='YQ', sectors='1', amount=1200.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YQ', sectors='2', amount=1200.0, conn_exemption=false, fee_application=0]]
+[YqFeeItem[name='YR', sectors='1', amount=29.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='2', amount=29.0, conn_exemption=false, fee_application=0]]
+---6
+[YqFeeItem[name='YQ', sectors='1', amount=0.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YQ', sectors='2', amount=285.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YQ', sectors='3', amount=285.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YQ', sectors='4', amount=0.0, conn_exemption=false, fee_application=0]]
+[YqFeeItem[name='YR', sectors='1', amount=0.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='2', amount=29.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='3', amount=29.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='4', amount=0.0, conn_exemption=false, fee_application=0]]
+---7
+[YqFeeItem[name='YQ', sectors='1', amount=708.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YQ', sectors='2', amount=0.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YQ', sectors='3', amount=0.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YQ', sectors='4', amount=708.0, conn_exemption=false, fee_application=0]]
+[YqFeeItem[name='YR', sectors='1', amount=29.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='2', amount=0.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='3', amount=0.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='4', amount=29.0, conn_exemption=false, fee_application=0]]
+---8
+[YqFeeItem[name='YQ', sectors='1-2', amount=821.0, conn_exemption=false, fee_application=1], YqFeeItem[name='YQ', sectors='3-4', amount=821.0, conn_exemption=false, fee_application=1]]
+[YqFeeItem[name='YR', sectors='1', amount=29.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='2', amount=29.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='3', amount=29.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='4', amount=29.0, conn_exemption=false, fee_application=0]]
+---9
+[YqFeeItem[name='YQ', sectors='1', amount=450.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YQ', sectors='2', amount=450.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YQ', sectors='3', amount=0.0, conn_exemption=false, fee_application=0]]
+[YqFeeItem[name='YR', sectors='1', amount=29.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='2', amount=29.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='3', amount=0.0, conn_exemption=false, fee_application=0]]
+---10
+[YqFeeItem[name='YQ', sectors='1', amount=450.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YQ', sectors='2', amount=450.0, conn_exemption=false, fee_application=0]]
+[YqFeeItem[name='YR', sectors='1', amount=29.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='2', amount=29.0, conn_exemption=false, fee_application=0]]
+---11
+[YqFeeItem[name='YQ', sectors='1', amount=1910.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YQ', sectors='2', amount=1910.0, conn_exemption=false, fee_application=0]]
+[YqFeeItem[name='YR', sectors='1', amount=29.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='2', amount=29.0, conn_exemption=false, fee_application=0]]
+---12
+[YqFeeItem[name='YQ', sectors='1', amount=0.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YQ', sectors='2', amount=1200.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YQ', sectors='3', amount=1200.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YQ', sectors='4', amount=0.0, conn_exemption=false, fee_application=0]]
+[YqFeeItem[name='YR', sectors='1', amount=0.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='2', amount=29.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='3', amount=29.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='4', amount=0.0, conn_exemption=false, fee_application=0]]
+---13
+[YqFeeItem[name='YQ', sectors='1', amount=1100.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YQ', sectors='2', amount=1100.0, conn_exemption=false, fee_application=0]]
+[YqFeeItem[name='YR', sectors='1', amount=29.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='2', amount=29.0, conn_exemption=false, fee_application=0]]
+---14
+[YqFeeItem[name='YQ', sectors='1', amount=400.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YQ', sectors='2', amount=400.0, conn_exemption=false, fee_application=0]]
+[YqFeeItem[name='YR', sectors='1', amount=29.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='2', amount=29.0, conn_exemption=false, fee_application=0]]
+---15
+[YqFeeItem[name='YQ', sectors='1', amount=300.0, conn_exemption=false, fee_application=1], YqFeeItem[name='YQ', sectors='2', amount=300.0, conn_exemption=false, fee_application=1]]
+[YqFeeItem[name='YR', sectors='1', amount=29.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='2', amount=29.0, conn_exemption=false, fee_application=0]]
+---16
+[YqFeeItem[name='YQ', sectors='1', amount=50.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YQ', sectors='2', amount=50.0, conn_exemption=false, fee_application=0]]
+[YqFeeItem[name='YR', sectors='1', amount=0.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='2', amount=0.0, conn_exemption=false, fee_application=0]]
+---17
+[YqFeeItem[name='YQ', sectors='1', amount=1112.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YQ', sectors='2', amount=1112.0, conn_exemption=false, fee_application=0]]
+[YqFeeItem[name='YR', sectors='1', amount=29.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='2', amount=29.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='3', amount=29.0, conn_exemption=false, fee_application=0]]
+---18
+[YqFeeItem[name='YQ', sectors='1', amount=700.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YQ', sectors='2', amount=700.0, conn_exemption=false, fee_application=0]]
+[YqFeeItem[name='YR', sectors='1', amount=29.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='2', amount=29.0, conn_exemption=false, fee_application=0]]
+---19
+[YqFeeItem[name='YQ', sectors='1', amount=0.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YQ', sectors='2', amount=285.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YQ', sectors='3', amount=285.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YQ', sectors='4', amount=0.0, conn_exemption=false, fee_application=0]]
+[YqFeeItem[name='YR', sectors='2', amount=29.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='3', amount=29.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='4', amount=0.0, conn_exemption=false, fee_application=0]]
+---20
+[YqFeeItem[name='YQ', sectors='1', amount=708.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YQ', sectors='2', amount=0.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YQ', sectors='3', amount=708.0, conn_exemption=false, fee_application=0]]
+[YqFeeItem[name='YR', sectors='1', amount=29.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='2', amount=0.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='3', amount=29.0, conn_exemption=false, fee_application=0]]
+---21
+[YqFeeItem[name='YQ', sectors='2', amount=708.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YQ', sectors='3', amount=0.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YQ', sectors='4', amount=0.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YQ', sectors='5', amount=708.0, conn_exemption=false, fee_application=0]]
+[YqFeeItem[name='YR', sectors='2', amount=29.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='3', amount=0.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='4', amount=0.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='5', amount=29.0, conn_exemption=false, fee_application=0]]
+---22
+[YqFeeItem[name='YQ', sectors='1-2', amount=102.33, conn_exemption=false, fee_application=1], YqFeeItem[name='YQ', sectors='3-4', amount=102.33, conn_exemption=false, fee_application=1]]
+[YqFeeItem[name='YR', sectors='1', amount=5.46, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='2', amount=5.46, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='3', amount=5.46, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='4', amount=5.46, conn_exemption=false, fee_application=0]]
+---23
+[YqFeeItem[name='YQ', sectors='1-2', amount=102.33, conn_exemption=false, fee_application=1], YqFeeItem[name='YQ', sectors='3-4', amount=102.33, conn_exemption=false, fee_application=1]]
+[YqFeeItem[name='YR', sectors='1', amount=5.46, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='2', amount=5.46, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='3', amount=5.46, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='4', amount=5.46, conn_exemption=false, fee_application=0]]
+---24
+[YqFeeItem[name='YQ', sectors='1', amount=164.0, conn_exemption=false, fee_application=0]]
+[YqFeeItem[name='YR', sectors='1', amount=29.0, conn_exemption=false, fee_application=0]]
+---25
+[YqFeeItem[name='YQ', sectors='1', amount=151.21, conn_exemption=false, fee_application=0], YqFeeItem[name='YQ', sectors='2', amount=151.21, conn_exemption=false, fee_application=0]]
+[YqFeeItem[name='YR', sectors='1', amount=3.57, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='2', amount=3.57, conn_exemption=false, fee_application=0]]
+---26
+[YqFeeItem[name='YQ', sectors='1', amount=950.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YQ', sectors='3', amount=950.0, conn_exemption=false, fee_application=0]]
+[YqFeeItem[name='YR', sectors='1', amount=29.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='3', amount=29.0, conn_exemption=false, fee_application=0]]
+---27
+[YqFeeItem[name='YQ', sectors='1-3', amount=145.0, conn_exemption=false, fee_application=1], YqFeeItem[name='YQ', sectors='4-6', amount=145.0, conn_exemption=false, fee_application=1]]
+[YqFeeItem[name='YR', sectors='1', amount=4.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='2', amount=4.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='3', amount=4.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='4', amount=4.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='5', amount=4.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='6', amount=4.0, conn_exemption=false, fee_application=0]]
+---28
+[YqFeeItem[name='YQ', sectors='1', amount=0.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YQ', sectors='2', amount=0.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YQ', sectors='3', amount=0.0, conn_exemption=false, fee_application=0]]
+[YqFeeItem[name='YR', sectors='1', amount=0.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='2', amount=0.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='3', amount=0.0, conn_exemption=false, fee_application=0]]
+---29
+[YqFeeItem[name='YQ', sectors='1', amount=0.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YQ', sectors='2', amount=0.0, conn_exemption=false, fee_application=0]]
+[YqFeeItem[name='YR', sectors='1', amount=0.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='2', amount=0.0, conn_exemption=false, fee_application=0]]
+---30
+[YqFeeItem[name='YQ', sectors='1', amount=0.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YQ', sectors='2', amount=0.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YQ', sectors='3', amount=0.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YQ', sectors='4', amount=0.0, conn_exemption=false, fee_application=0]]
+[YqFeeItem[name='YR', sectors='1', amount=0.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='2', amount=0.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='3', amount=0.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='4', amount=0.0, conn_exemption=false, fee_application=0]]
+---31
+[YqFeeItem[name='YQ', sectors='1', amount=0.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YQ', sectors='2', amount=80.0, conn_exemption=false, fee_application=0]]
+[YqFeeItem[name='YR', sectors='1', amount=17.5, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='2', amount=5.9, conn_exemption=false, fee_application=0]]
+---32
+[YqFeeItem[name='YQ', sectors='1', amount=450.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YQ', sectors='2', amount=450.0, conn_exemption=false, fee_application=0]]
+[YqFeeItem[name='YR', sectors='1', amount=29.0, conn_exemption=false, fee_application=0], YqFeeItem[name='YR', sectors='2', amount=29.0, conn_exemption=false, fee_application=0]]
