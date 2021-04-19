@@ -13,7 +13,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
-import org.springframework.util.ResourceUtils;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -120,20 +119,6 @@ public class DataProviderTest {
         p.type = passengerType;
 
         itinerary.scurr = saleCurrency;
-    }
-
-    @Test
-    public void doSomeTest() {
-        try {
-            File file = ResourceUtils.getFile("classpath:data/j1.txt");
-            Itinerary itinerary = readOneFromTxt(file);
-            log.info(itinerary.scurr);
-            log.info(itinerary.passenger.type);
-            log.info("total sector: {}", itinerary.sectors.length);
-        } catch (Exception e) {
-            log.error(e.getMessage(), e);
-        }
-
     }
 
     @Test

@@ -213,7 +213,6 @@
                 <version>${junit.version}</version>
                 <scope>test</scope>
             </dependency>
-            <!-- For effective asserting of results, we're going to also use Hamcrest and JSON path -->
             <dependency>
                 <groupId>org.hamcrest</groupId>
                 <artifactId>hamcrest-library</artifactId>
@@ -227,22 +226,8 @@
                 <scope>test</scope>
             </dependency>
 
-            <dependency>
-                <groupId>com.adelean</groupId>
-                <artifactId>inject-resources-core</artifactId>
-                <version>0.1.1</version>
-                <scope>test</scope>
-            </dependency>
-
-            <dependency>
-                <groupId>com.adelean</groupId>
-                <artifactId>inject-resources-junit-jupiter</artifactId>
-                <version>0.1.1</version>
-                <scope>test</scope>
-            </dependency>
-
         </dependencies>
-    </dependencyManagement><!--   -->
+    </dependencyManagement>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -294,7 +279,7 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.22.2</version>
                 <configuration>
-                    <skipTests>true</skipTests>
+                    <skipTests>false</skipTests>
                 </configuration>
             </plugin>
         </plugins>
